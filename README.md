@@ -1,12 +1,39 @@
-# React + Vite
+# 🧠 AI Code Reviewer & Fixer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is an AI-powered web application built with **React**, **Monaco Editor**, **Framer Motion**, and **Google's Gemini API**. It allows developers to write, review, fix, and simulate the output of code in multiple programming languages with just a few clicks.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ **Code Editing** with syntax highlighting via Monaco Editor
+- 🔍 **AI-Powered Code Review** (quality rating, suggestions, bug detection, etc.)
+- 🛠️ **Auto-Fix Code** using Gemini
+- 🖥️ **Simulate Output** of code without execution
+- 🌈 **Modern UI** with dark theme and animations
+- 🌐 **Multi-language Support** (20+ languages)
 
-## Expanding the ESLint configuration
+## 📸 Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![image](https://github.com/user-attachments/assets/22bfed41-eb2a-48d2-ab51-51880ed2968d)
+
+
+## 🚀 Tech Stack
+
+- **Frontend**: React, TailwindCSS, Framer Motion
+- **Editor**: Monaco Editor
+- **AI API**: Google Generative AI (Gemini)
+- **Markdown Rendering**: react-markdown
+- **Select Dropdown**: react-select
+- **Loader**: react-spinners
+
+## 🧰 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yes20sh/CodeCraft-AI-Application.git
+cd CodeCraft-AI-Application
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
